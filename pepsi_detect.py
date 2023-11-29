@@ -8,7 +8,7 @@ while True:
 
     # Convert BGR to HSV
     hsv = cv2.cvtColor(frame, cv2.COLOR_BGR2HSV)
-
+#111
     # Define range of blue color for Pepsi can in HSV
     lower_blue = np.array([100, 50, 50])
     upper_blue = np.array([130, 255, 255])
